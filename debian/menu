@@ -1,0 +1,7 @@
+?package(buildnotify):					\
+	needs="X11"					\
+	section="Applications/Programming"		\
+	title="buildnotify"				\
+	command="buildnotify"				\
+	icon="/usr/share/pixmaps/buildnotify.xpm"	\
+	longtitle="BuildNotify CI build monitor"

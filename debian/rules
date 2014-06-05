@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+PKG=$(shell dh_listpackages)
+TMP=$(CURDIR)/debian/$(PKG)
+
+%:
+	dh $@ --with python2
+
+override_dh_auto_install:
+	python setup.py install --force --root=$(TMP) --no-compile -O0 --install-layout=deb --install-lib=/usr/share/$(PKG) --install-scripts=/usr/share/$(PKG)
+override_dh_auto_build:

@@ -1,0 +1,22 @@
+Source: buildnotify
+Section: devel
+Priority: optional
+Maintainer: Daniel Lintott <daniel@serverb.co.uk>
+Build-Depends: debhelper (>= 9),
+ python,
+ python-setuptools
+Standards-Version: 3.9.5
+Homepage: http://bitbucket.org/Anay/buildnotify
+Vcs-Git: git://anonscm.debian.org/users/dlintott-guest/buildnotify.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=users/dlintott-guest/buildnotify.git;a=summary
+
+Package: buildnotify
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends},
+ python-dateutil,
+ python-qt4,
+ python-tz
+Description: cruise control CI build monitor
+ BuildNotify is a cruise control system tray monitor. It was largely inspired 
+ by CCMenu and lets you monitor multiple continuous integration servers with
+ customizable build notifications for all projects

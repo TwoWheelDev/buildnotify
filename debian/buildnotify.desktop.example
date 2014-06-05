@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=buildnotify
+Hidden=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=buildnotify.desktop.example
+Name=buildnotify
+Comment[en_GB]=BuildNotify CI Monitor
+Comment=BuildNotify CI Monitor

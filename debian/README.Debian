@@ -1,0 +1,10 @@
+buildnotify for Debian
+----------------------
+
+buildnotify is designed to be started when logging in. This can be acheived by
+by using the 'Startup Applications' dialog or by creating a .desktop in 
+~/.config/autostart/ 
+
+An example .desktop file can be found in /usr/share/doc/buildnotify/examples
+
+ -- Daniel Lintott <daniel@serverb.co.uk>  Thu, 05 Jun 2014 10:38:07 +0100
