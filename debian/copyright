@@ -4,7 +4,7 @@ Upstream-Contact: Anay Nayak <anayak007@gmail.com>
 Source: https://pypi.python.org/pypi/BuildNotify
 
 Files: *
-Copyright: 2009, Anay Nayak <anayak007@gmail.com>
+Copyright: 2009-2014, Anay Nayak <anayak007@gmail.com>
 License: GPL-3.0+
 
 Files: debian/*
