@@ -2,4 +2,4 @@ buildnotify (0.3.5-1) unstable; urgency=low
 
   * Initial release (Closes: #750457)
 
- -- Daniel Lintott <daniel@serverb.co.uk>  Thu, 05 Jun 2014 10:38:07 +0100
+ -- Daniel Lintott <daniel@serverb.co.uk>  Sun, 03 Aug 2014 22:49:17 +0100
