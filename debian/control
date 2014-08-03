@@ -20,7 +20,7 @@ Description: cruise control CI build monitor
  BuildNotify is a cruise control system tray monitor. It was largely inspired 
  by CCMenu and lets you monitor multiple continuous integration servers with
  customizable build notifications for all projects
-.
+ .
    * Monitor projects on multiple CruiseControl continuous integration servers.
    * Access to overall continuous integration status from the system tray.
    * Access individual project pages through the tray menu.
